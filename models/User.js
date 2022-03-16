@@ -70,7 +70,7 @@ User.init(
     // don't automatically create createdAt/updatedAt timestamp fields
     timestamps: false,
     // don't pluralize name of database table
-    freeTableName: true,
+    freezeTableName: true,
     // use underscores instead of camel-casing
     underscored: true,
     // make it so our model name stays lowercase in the database
